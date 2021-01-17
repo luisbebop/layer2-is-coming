@@ -12,6 +12,8 @@
     "@eth-optimism/plugins": "^0.0.4",
     "@nomiclabs/hardhat-ethers": "^2.0.1",
     "console-stamp": "^0.2.9",
+    "dotenv": "^8.2.0",
+    "elapsed-time": "^0.0.1",
     "ethers": "^5.0.25",
     "hardhat": "^2.0.7"
   }
