@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@celo-tools/celo-ethers-wrapper": "^0.0.5",
     "@eth-optimism/plugins": "^0.0.4",
     "@nomiclabs/hardhat-ethers": "^2.0.1",
     "console-stamp": "^0.2.9",

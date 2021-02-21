@@ -1,13 +1,15 @@
-# optimism-sample
+# layer2-is-coming
 
-This is a smart contract demo running on Optimism Layer 2 testnet.
+Some tests on multiple layer2 cool networks that are getting nice reviews from the community. So far I tested `Optimism`, `Fantom`, `xDAI` and `Celo`.
+
+
+## how to use
+
+If you want to deploy to Optimism.
 
 [What is Optmism?](https://optimism.io/)
 
 [Twitch stream about Optimism Layer 2 development](https://www.twitch.tv/videos/863816992)
-
-
-## how to use
 
 ```
 yarn install
@@ -40,3 +42,5 @@ Then
 ```
 node deploy_rinkeby.js
 ```
+
+And all the others.. you get it.
