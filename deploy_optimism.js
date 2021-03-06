@@ -4,11 +4,14 @@ const { l2ethers } = require('hardhat')
 ;(async() => {
   const provider = new l2ethers.providers.JsonRpcProvider('https://kovan.optimism.io')
   const wallet = new l2ethers.Wallet('0x' + 'ff'.repeat(64), provider)
-  
+    
   const factory = await l2ethers.getContractFactory('Storage')
-  console.log('deploying contract')
-  const contract = await factory.connect(wallet).deploy()
-  console.log('contract deployed at ' + contract.address)
+  console.log('connecting/deploying to contract')
+  
+  //const contract = await factory.connect(wallet).deploy()
+  const contract = await factory.connect(wallet).attach("0x33C2283C56946CA69CD373D021E743a45Ba09F92")
+  
+  console.log('contract address at ' + contract.address)
   
   for(let i = 0; i < 100; i++) {
     console.log('store number on contract')

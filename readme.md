@@ -14,7 +14,7 @@ If you want to deploy to Optimism.
 ```
 yarn install
 yarn compile
-node deploy_omv.js
+node deploy_optimism.js
 ```
 
 You can also deploy to xDai sidechain to compare performance. You will need a .env file in your directory with the mnemonic of your private key from an address that contains at least 1 xDAI so you can pay for deploy and smartcontract write calls.
